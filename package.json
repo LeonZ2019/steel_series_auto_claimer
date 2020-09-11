@@ -1,0 +1,22 @@
+{
+  "name": "steel_series_auto_claimer",
+  "version": "1.0.0",
+  "main": "js/background.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonZ2019/steel_series_auto_claimer.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "giveaway",
+    "steelseries",
+    "bot"
+  ],
+  "author": "LeonZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeonZ2019/steel_series_auto_claimer/issues"
+  },
+  "homepage": "https://github.com/LeonZ2019/steel_series_auto_claimer#readme"
+}

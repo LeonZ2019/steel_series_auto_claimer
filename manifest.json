@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "steel_series_auto_claimer",
+    "version": "1.0.0",
+    "content_scripts":[
+        {
+            "matches": ["https://games.steelseries.com/giveaway/*"],
+            "js": ["js/content.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["js/bg.js"]
+    },
+    "offline_enabled": false,
+    "permissions": ["tabs"],
+    "browser_action": {
+        "default_icon": "images/icon.png",
+        "default_title": "Click me for claim key for steelseries once"
+    }
+}
